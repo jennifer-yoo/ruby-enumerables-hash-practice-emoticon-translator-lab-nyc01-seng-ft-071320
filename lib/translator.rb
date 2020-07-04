@@ -25,11 +25,10 @@ def get_japanese_emoticon(file, e_emoticon)
         if lang[:english] == e_emoticon
           j_meaning = lang[:japanese]
         end
-      end
+    end
       if j_meaning == ""
         j_meaning = apology
       end
-    end
   j_meaning
 end
 
