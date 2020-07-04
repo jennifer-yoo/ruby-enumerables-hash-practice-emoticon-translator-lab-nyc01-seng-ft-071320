@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, e_emoticon)
 
     emotion.each do |emotion_list, lang|
       binding.pry
-      emotion_list.each do |emotion_name|
+      lang.each do |lang_name, emoticon|
 
       end
     end
