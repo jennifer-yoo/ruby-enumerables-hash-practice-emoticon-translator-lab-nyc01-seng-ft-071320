@@ -16,9 +16,11 @@ def load_library(file)
 end
 
 
-def get_japanese_emoticon(file, emoticon)
+def get_japanese_emoticon(file, e_emoticon)
   emotion = load_library(file)
-  emotion.each do |emotion_list|
+  eng_meaning = {}
+  
+  emotion.each do |emotion_list, lang|
     emotion_list.each do |emotion_name|
       emotion_name.each do |english|
 
