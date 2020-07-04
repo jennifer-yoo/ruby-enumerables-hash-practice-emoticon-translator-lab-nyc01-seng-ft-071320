@@ -22,6 +22,7 @@ def get_japanese_emoticon(file, e_emoticon)
   puts "Sorry, that emoticon was not found"
 
     emotion.each do |emotion_list, lang|
+      binding.pry
       emotion_list.each do |emotion_name|
 
       end
